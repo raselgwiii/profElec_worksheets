@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfElec1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+    
+</head>
+ 
+<body>
+ 
+    <header class="header">
+        <div class="row">
+            <div class="col-2">
+                <div class="logo">
+                    <img src="img/logo.png" alt="" srcset="">
+                    <p>1st Semester 2023-2024</p>
+                </div>
+            </div>
+ 
+            <div class="col-6">
+                <div class="subject">
+                    <h3>Advanced Web Development: Front End 1 <br> BSIT 3</h3>
+                </div>
+            </div>
+ 
+            <div class="col-4">
+                <div class="profile-container">
+                    <div class="name">
+                        CAPONGA, RUSSEL GUE D.
+                    </div>
+                    <div class="image">
+                        <img src="img/pic.jpg" alt="Profile Image">
+                    </div>
+ 
+                </div>
+            </div>
+ 
+        </div>
+ 
+ 
+        </div>
+    </header>
+
+    <div class="box">
+        <nav>
+            <div id="hamburger" class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+            <ul class="nav-link">
+                <li><a href="ws1.3.html">WS1.3</a></li>
+                <li><a href="ws2.1.html">WS2.1</a></li>
+                <li><a href="ws2.2.html">WS2.2</a></li>
+                <li><a href="#">SA SUSUNOD</a></li>
+                <li><a href="#">HAHA</a></li>
+            </ul>
+        </nav>
+    </div> 
+
+    <div class="container">
+        
+ 
+        <div class="form-container">
+            <form>
+                <div class="text">
+                    <h2>Employee Profile</h2>
+                </div>
+                <div class="row">
+ 
+                    <!-- Start of first half of the column -->
+                    <div class="col-6"> 
+                        <div class="name-section">
+                            <div>
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                            <div>
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div>
+                                <label for="middle-initial">Middle Initial:</label>
+                                <input type="text" id="middle-initial" name="middle-initial" maxlength="1" required>
+                            </div>
+                            <div>
+                                <label for="age">Age:</label>
+                                <input type="number" id="age" name="age" required>
+                            </div>
+                            <div>
+                                <label for="address">Address:</label>
+                                <input type="text" id="address" name="address" required>
+                            </div>
+                            
+                        </div>
+                    </div>  <!-- End of first half of the column -->
+ 
+ 
+                <!-- Start of second half of the column -->
+                    <div class="col-6">   
+                        <div class="personal-info-section">
+                            
+                            <div>
+                                <label for="sex">Sex:</label>
+                                <input type="radio" id="male" name="sex" value="Male" required>
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="sex" value="Female" required>
+                                <label for="female">Female</label>
+                            </div>
+                            <div>
+                                <label for="status">Status:</label>
+                                <select id="status" name="status" required>
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Widowed">Widowed</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="rank">Rank:</label>
+                                <select id="rank" name="rank" required>
+                                    <option value="Instructor 1">Instructor 1</option>
+                                    <option value="Instructor 2">Instructor 2</option>
+                                    <option value="Instructor 3">Instructor 3</option>
+                                    <option value="Assist 1">Assist 1</option>
+                                    <option value="Assist 2">Assist 2</option>
+                                    <option value="Assist 3">Assist 3</option>
+                                    <option value="Assist 4">Assist 4</option>
+                                    <option value="Assoc 1">Assoc 1</option>
+                                    <option value="Assoc 2">Assoc 2</option>
+                                    <option value="Assoc 3">Assoc 3</option>
+                                    <option value="Assoc 4">Assoc 4</option>
+                                    <option value="Assoc 5">Assoc 5</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="date-hired">Date Hired:</label>
+                                <input type="date" id="date-hired" name="date-hired" required>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="is-active" name="is-active" value="Active">
+                                <label for="is-active">Is Active</label>
+                            </div>
+                        </div>
+                    </div>
+ 
+                    <!-- End of second half of the column -->
+ 
+ 
+                    <div class="col-4">
+ 
+                        <fieldset class="form-section">
+                            <legend>Educational Background</legend>
+                            <div class="education-item">
+                                <label for="undergraduate-course">Undergraduate Course:</label>
+                                <label for="course">Course:</label>
+                                <input type="text" id="undergraduate-course" name="masters-course">
+                                <label for="undergraduate-year">Year Graduated:</label>
+                                <input type="date" id="undergraduate-year" name="undergraduate-year">
+                            </div>
+                        </fieldset>
+ 
+                    </div>
+ 
+                    <div class="col-4">
+ 
+                        <fieldset class="form-section">
+                            <div class="education-item">
+                                <label for="masters-course">Masters Degree:</label>
+                                <label for="course">Course:</label>
+                                <input type="text" id="masters-course" name="masters-course">
+                                <label for="masters-year">Year Graduated:</label>
+                                <input type="date" id="masters-year" name="masters-year">
+                            </div>
+                        </fieldset>
+ 
+                    </div>
+ 
+                    <div class="col-4">
+ 
+                        <fieldset class="form-section">
+                            <div class="education-item">
+                                <label for="doctorate-course">Doctorate:</label>
+                                <label for="course">Course:</label>
+                                <input type="text" id="doctorate-course" name="masters-course">
+                                <label for="doctorate-year">Year Graduated:</label>
+                                <input type="date" id="doctorate-year" name="doctorate-year">
+                            </div>
+                        </fieldset>
+ 
+                    </div>
+ 
+                </div>
+ 
+                <div class="submit-button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+ 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span id="closeModalBtn" class="close">&times;</span>
+              <div id="modal-content"></div>
+            </div>
+          </div>
+    </div>
+ 
+ 
+ 
+    <footer>
+        <h2>Jim-mar Delos Reyes</h2>
+        <p>Instructor</p>
+    </footer>
+ 
+    <script>
+ const modal = document.getElementById('myModal');
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+ 
+ 
+        // Close the modal
+        closeModalBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+ 
+        // Close the modal if the user clicks outside of it
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+ 
+        // Function to show the modal with form data
+        function showModal() {
+            // Get form elements and values
+            const formData = new FormData(document.querySelector('form'));
+            let formSummary = '<h2>Employee Profile Summary</h2>';
+ 
+            for (const [key, value] of formData.entries()) {
+                formSummary += `<p><strong>${key}:</strong> ${value}</p>`;
+            }
+ 
+            // Display form data in the modal
+            document.getElementById('modal-content').innerHTML = formSummary;
+ 
+            // Show the modal
+            modal.style.display = 'block';
+        }
+ 
+        // Add an event listener to the form's submit button
+        document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent the default form submission
+            showModal(); // Call the function to show the modal
+        });
+ 
+        var oyy = {
+            Utils: {}
+        };
+
+
+        oyy.Utils.toggleNav = function () {
+            const hamburger = document.querySelector("#hamburger");
+            const navList = document.querySelector(".nav-link");
+
+            hamburger.addEventListener("click", function () {
+                navList.classList.toggle("navbar-toggled");
+            });
+        };
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            oyy.Utils.toggleNav();
+        });
+
+
+      </script>
+</body>
+</html>
